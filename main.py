@@ -105,10 +105,10 @@ if __name__ == "__main__":
           )
      print(separator)
      
-     while True:
-          played = play_game()
-          if not played: 
-               break
-          if not play_again():
-               print("Have a nice day.")
-               break
+while True:
+     played = play_game()
+     if not played: 
+          break
+     if not play_again():
+          print("Have a nice day.")
+          break
