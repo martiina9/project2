@@ -60,7 +60,7 @@ def play_game():
 
      guess = 0
      
-     while True:
+     while user_guess_number is not None:
           bull = 0
           cow = 0
           guess += 1
@@ -94,7 +94,8 @@ def play_game():
           user_guess_number = user_random_number()
           if user_guess_number is None:
                break
-
+               
+          return False
 if __name__ == "__main__":
      print(separator)
      print(
@@ -105,7 +106,9 @@ if __name__ == "__main__":
      print(separator)
      
      while True:
-          play_game()
+          played = play_game()
+          if not played: 
+               break
           if not play_again():
                print("Have a nice day.")
                break
