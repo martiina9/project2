@@ -38,7 +38,6 @@ def user_random_number() -> str | None:
                print("Your number has the same digit/s. Try again.")
                continue
                
-          
           return user_guess
 
 def play_again() -> bool: 
@@ -60,7 +59,7 @@ def play_game():
      user_guess_number = user_random_number()
 
      guess = 0
-     print(random_pc_number)
+     
      while True:
           bull = 0
           cow = 0
