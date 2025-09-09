@@ -41,7 +41,7 @@ def user_random_number() -> str | None:
           return user_guess
 
 def play_again() -> bool: 
-     """Ask user if he wants to play again """    
+     """Ask user if he wants to play again"""    
      while True:
           new_game = input("Do you want to play again? Yes/No: \n")
           if new_game.lower() == "no":
@@ -52,7 +52,7 @@ def play_again() -> bool:
                print("Wrong input. Enter yes or no.")
 
 def play_game():
-     """Runs the game Cows and bulls """
+     """Runs the game Cows and bulls"""
      start_time = time.time()
 
      random_pc_number = gen_random_num()
