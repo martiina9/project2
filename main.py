@@ -95,7 +95,6 @@ def play_game():
           if user_guess_number is None:
                break
                
-          return False
 if __name__ == "__main__":
      print(separator)
      print(
