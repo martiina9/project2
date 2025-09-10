@@ -99,8 +99,8 @@ if __name__ == "__main__":
      print(separator)
      print(
           "Hello, friend. I've generated a 4-digit number for you. :) \n"
-          "Let's play Cows and bulls. "
-          "/If you don`t want to play, enter 'end'./"
+          "Let's play Cows and bulls. \n"
+          "/If you dont want to play, enter 'end'/."
           )
      print(separator)
      
